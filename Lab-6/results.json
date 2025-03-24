@@ -1,0 +1,90 @@
+{
+    "n-1_threads-1_dist-load": {
+        "average_time": 4.528640588124593,
+        "flaky_tests": [],
+        "failures": {
+            "test_remove_duplicates": 3,
+            "test_summarize_ranges": 3
+        }
+    },
+    "n-1_threads-1_dist-no": {
+        "average_time": 4.440721035003662,
+        "flaky_tests": [],
+        "failures": {
+            "test_remove_duplicates": 3,
+            "test_summarize_ranges": 3
+        }
+    },
+    "n-1_threads-auto_dist-load": {
+        "average_time": 38.74597962697347,
+        "flaky_tests": [
+            "test_huffman_coding"
+        ],
+        "failures": {
+            "test_remove_duplicates": 3,
+            "test_summarize_ranges": 3,
+            "test_insert": 3,
+            "test_remove_min": 3,
+            "test_is_palindrome": 3,
+            "test_huffman_coding": 1
+        }
+    },
+    "n-1_threads-auto_dist-no": {
+        "average_time": 38.8346803188324,
+        "flaky_tests": [
+            "test_huffman_coding"
+        ],
+        "failures": {
+            "test_remove_duplicates": 3,
+            "test_summarize_ranges": 3,
+            "test_huffman_coding": 2,
+            "test_insert": 3,
+            "test_remove_min": 3,
+            "test_is_palindrome": 3
+        }
+    },
+    "n-auto_threads-1_dist-load": {
+        "average_time": 4.321609020233154,
+        "flaky_tests": [],
+        "failures": {
+            "test_summarize_ranges": 3,
+            "test_remove_duplicates": 3
+        }
+    },
+    "n-auto_threads-1_dist-no": {
+        "average_time": 4.293017069498698,
+        "flaky_tests": [],
+        "failures": {
+            "test_summarize_ranges": 3,
+            "test_remove_duplicates": 3
+        }
+    },
+    "n-auto_threads-auto_dist-load": {
+        "average_time": 32.84354837735494,
+        "flaky_tests": [
+            "test_huffman_coding"
+        ],
+        "failures": {
+            "test_summarize_ranges": 3,
+            "test_remove_duplicates": 3,
+            "test_insert": 3,
+            "test_remove_min": 3,
+            "test_huffman_coding": 1,
+            "test_is_palindrome": 3
+        }
+    },
+    "n-auto_threads-auto_dist-no": {
+        "average_time": 32.975503047307335,
+        "flaky_tests": [
+            "test_huffman_coding"
+        ],
+        "failures": {
+            "test_summarize_ranges": 3,
+            "test_remove_duplicates": 3,
+            "test_is_palindrome": 3,
+            "test_insert": 3,
+            "test_remove_min": 3,
+            "test_huffman_coding": 1
+        }
+    }
+}
